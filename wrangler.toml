@@ -1,7 +1,7 @@
-name = "telegram_private_chatbot"
+name = "telegramprivatechatbot"
 main = "worker.js"
 compatibility_date = "2024-11-30"
-name = "telegramprivatechatbot"
+
 
 [vars]
 SUPERGROUP_ID = "-1003769088178"
