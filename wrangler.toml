@@ -1,13 +1,5 @@
-name = "telegramprivatechatbot"
+name = "telegram_private_chatbot"
 main = "worker.js"
 compatibility_date = "2024-11-30"
-
-
-[vars]
-SUPERGROUP_ID = "-1003769088178"
-
-[[kv_namespaces]]
-binding = "TelegramChatbot"
-id = "0420823d51fe4187aac71ec3c6f2275a"
 # 注意：KV 命名空间 ID 每个用户都不一样，
 # 所以不能写死在这里。用户需要在 Cloudflare 后台手动绑定。
